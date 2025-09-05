@@ -12,7 +12,8 @@ int main() {
     getline(cin, str);
 
     string result = "";
-    for (char ch : str) {
+    for (int i - 0 ; i < str.length(); i++) {
+        char cd = str[i];
         if (!isVowel(ch)) {
             result += ch;
         }
@@ -20,4 +21,5 @@ int main() {
     cout << "String after removing vowels: " << result << endl;
     
     return 0;
+
 }
